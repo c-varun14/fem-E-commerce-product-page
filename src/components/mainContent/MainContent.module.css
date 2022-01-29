@@ -1,0 +1,15 @@
+.mainContent {
+  min-width: 70vw;
+  max-width: 90vw;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  text-align: start;
+}
+@media screen and (max-width: 545px) {
+  .mainContent {
+    flex-direction: column;
+    margin: 0;
+    min-width: 100%;
+  }
+}

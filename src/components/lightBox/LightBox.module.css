@@ -1,0 +1,42 @@
+.modal {
+  position: fixed;
+  z-index: 3;
+  display: block;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal .imgDiv {
+  width: 70vh;
+  position: relative;
+}
+.modal .imgDiv img {
+  width: 70vh;
+  border-radius: 1rem;
+  z-index: 3;
+}
+
+.modal .close {
+  position: absolute;
+  top: -2rem;
+  right: 0.8rem;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.modal .close:hover path {
+  fill: hsl(26, 100%, 55%);
+}
+
+.modal .imgDiv .previous:hover svg path,
+.modal .imgDiv .next:hover svg path {
+  stroke: hsl(26, 100%, 55%);
+}
+
+.modal .imgDiv .previous {
+  left: -1.5rem;
+}
+.modal .imgDiv .next {
+  right: -1.5rem;
+}

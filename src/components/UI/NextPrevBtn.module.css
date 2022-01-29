@@ -1,0 +1,19 @@
+.previous,
+.next {
+  background-color: #fff;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  cursor: pointer;
+}
+.next {
+  padding-left: 4px;
+}
+.previous {
+  padding-right: 4px;
+}

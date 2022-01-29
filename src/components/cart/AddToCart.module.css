@@ -1,0 +1,35 @@
+.buttons {
+  display: flex;
+}
+
+.numberOfItems {
+  display: flex;
+  background-color: hsl(223, 64%, 98%);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem;
+  margin-right: 1rem;
+}
+.numberOfItems button {
+  background-color: transparent;
+  border: none;
+}
+.cartLogo {
+  margin-right: 1rem;
+}
+@media screen and (max-width: 545px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .numberOfItems {
+    width: 100%;
+    height: 4rem;
+    margin: 0 auto 1rem;
+  }
+  .numberOfItems button {
+    padding: 0 1.5rem;
+  }
+}

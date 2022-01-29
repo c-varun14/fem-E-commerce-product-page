@@ -1,0 +1,33 @@
+.productImages {
+  display: flex;
+  min-width: 24rem;
+  max-width: 26rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  list-style: none;
+}
+.productImages li {
+  cursor: pointer;
+  max-width: 5rem;
+  max-height: 5rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.productImages li:hover img {
+  opacity: 0.5;
+}
+
+.productImages .active {
+  border-radius: 0.7rem;
+  border: 2px solid hsl(26, 100%, 55%);
+  overflow: hidden;
+}
+.productImages .active img {
+  opacity: 0.35;
+}
+.productImages li img {
+  max-width: 5rem;
+  max-height: 5rem;
+  border-radius: 5px;
+}

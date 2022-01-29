@@ -1,0 +1,34 @@
+.productImagesDiv {
+  display: inline-block;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.selectedImage {
+  min-width: 20rem;
+  max-width: 26rem;
+  border-radius: 1rem;
+}
+@media screen and (max-width: 545px) {
+  .productImagesDiv {
+    margin: 0;
+    max-width: 100%;
+    cursor: auto;
+    height: 23rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .selectedImage {
+    min-width: 20rem;
+    max-width: 26rem;
+    border-radius: 0;
+    margin: 0;
+    min-width: 100%;
+  }
+  .previous {
+    left: 4%;
+  }
+  .next {
+    right: 4%;
+  }
+}
